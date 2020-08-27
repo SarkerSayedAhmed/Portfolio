@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    background: #ccccff;
+}
+
+.container{
+    height:auto;
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    height :50px;
+    width : 100%;
+    position :relative;
+}
+.logo{
+    height :50px;
+    width : 10%;
+    float:left;
+}
+
+.navigation{
+    height : 50px;
+    width : 80%;
+    float :left;
+}
+.navigation  ul  li{
+    display: inline;
+    font-size:22px;
+    padding-right: 35px;
+    color:#fff;
+}
+.Home h1{
+    text-align:center;
+    background: #EDEDED;
+}
+.Home p{
+    background: #0011ff;
+    height: 400px;
+    width :100%;
+    padding-top: 340px;
+    text-align:center;
+    color:#fff;
+    font-size: 30px;
+    background-image: url('images/fantasy-3452327_1920.jpg')
+}
+.about_me h1{
+    text-align: center;
+    background: #EDEDED;
+}
+.about_me p{
+    padding-top: 100px;
+    background: #0033ff;
+    height: 400px;
+    width :100%;
+    text-align:center; 
+    color:#000;
+    background-image: url('images/fantasy-3452327_1920.jpg');
+    font-size: 30px;
+    color:#fff;
+}
+
+.my_expertise{
+    height: 300px;
+    width: 100%;
+    
+}
+.my_expertise h1{
+    font-size: 30px;
+    font-weight: bold;
+    background: #EDEDED;
+   text-align:center; 
+}
+.my_expertise p{
+    font-size: 20px;
+    font-weight: bold;
+    background: #EDEDED;
+}
+.option1{
+    width :16%;
+    float:left;
+    padding-left:80px;
+    padding-top:25px;
+    transition-delay: .5s;
+}
+.option1 p:hover{
+    text-decoration: underline;
+    color:#cc0000;
+}
+.option1 img:hover{
+    background: #005DA6;
+}
+.option2{
+    width :16%;
+    float:left;
+    padding-left:90px;
+    padding-top:25px;
+}
+.option2 p:hover{
+    text-decoration: underline;
+    color:#cc0000;
+}
+.option2 img:hover{
+    background: #005DA6;
+}
+.option3{
+    width :16%;
+    float:left;
+    padding-left:90px;
+    padding-top:25px;
+}
+.option3 p:hover{
+    text-decoration: underline;
+    color:#cc0000;
+}
+.option3 img:hover{
+    background: #005DA6;
+}
+.option4{
+    width :16%;
+    float:left;
+    padding-left:90px;
+    padding-top:25px;
+}
+.option4 p:hover{
+    text-decoration: underline;
+    color:#cc0000;
+}
+.option4 img:hover{
+    background: #005DA6;
+}
+.option5{
+    width :16%;
+    float:left;
+    padding-top:25px;
+    padding-left:90px;
+}
+.option5 p:hover{
+    text-decoration: underline;
+    color:#cc0000;
+}
+.option5 img:hover{
+    background: #005DA6;
+}
+.option6{
+    width :16%;
+    float:left;
+    padding-left:90px;
+    padding-top:25px;
+}
+.option6 p:hover{
+    text-decoration: underline;
+    color:#cc0000;
+}
+.option6 img:hover{
+    background: #005DA6;
+}
+#projects{
+    
+    text-align: center;
+    padding-bottom: 20px;
+}
+.project_1{
+    height: 400px;
+    width :100%;
+    background:#f8f8f8;
+    position: relative;
+}
+.project_1 p{
+    text-align: left;
+    background: none;
+    padding-left:70px;
+}
+
+.project_1 h1{
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    text-align: left;
+    padding-top:120px;
+    padding-left:70px;
+}
+.project_1 button{
+    font-size: 20px;
+    color:#ffffff;
+    background: #000000;
+    border :none;
+    position:absolute;
+    left: 70px;
+    padding: 8px 15px;
+}
+.project_1 button:hover{
+    color:#ffffff;
+    background: #330033;  
+}
+.project_2{
+    height: 400px;
+    width :100%;
+    background:#f8f8f8;
+    position: relative;
+}
+.project_2 p{
+    text-align: left;
+    background: none;
+    padding-left:70px;
+}
+
+.project_2 h1{
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    text-align: left;
+    padding-top:120px;
+    padding-left:70px;
+}
+.project_2 button{
+    font-size: 20px;
+    color:#ffffff;
+    background: #000000;
+    border :none;
+    position:absolute;
+    left: 70px;
+    padding: 8px 15px;
+}
+.project_2 button:hover{
+    color:#ffffff;
+    background: #330033;  
+}
+
+.project_3{
+    height: 400px;
+    width :100%;
+    background:#f8f8f8;
+    position: relative;
+}
+.project_3 p{
+    text-align: left;
+    background: none;
+    padding-left:70px;
+}
+
+.project_3 h1{
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    text-align: left;
+    padding-top:120px;
+    padding-left:70px;
+}
+.project_3 button{
+    font-size: 20px;
+    color:#ffffff;
+    background: #000000;
+    border :none;
+    position:absolute;
+    left: 70px;
+    padding: 8px 15px;
+}
+.project_3 button:hover{
+    color:#ffffff;
+    background: #330033;  
+}
+.Follow_Me{
+    height: 100px;
+    width :100%;
+    font-size:22px;
+    color: #fff;
+}
+.Follow_Me h1{
+    text-align: center;
+    color: #fff;
+}
+.Follow_Me ul li{
+    display: inline;
+    padding-right: 105px;
+    color: #fff;
+}
+
+footer{
+    height: 200px;
+    width :100%;
+}
+footer h1{
+    text-align: center;
+    color:#fff;
+}
+footer p{
+    text-align: center;
+    color:#000;
+    background: #EDEDED;
+}
